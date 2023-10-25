@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Mad About Dance",
+        "url": "https://madaboutdancestudio.com/",
+        "image": "https://picsum.photos/700/700?random=1",
+        "description": "Dance Institute"
+    },
+    {
+        "name": "Sunlight Events",
+        "url": "https://sunlighteventsorg.com/",
+        "image": "https://picsum.photos/700/700?random=2",
+        "description": "Casual Staff For Hotels"
+    },
+    {
+        "name": "Ask International Group",
+        "url": "https://askinternationalgroup.com",
+        "image": "https://picsum.photos/700/700?random=3",
+        "description": "Security Provider"
+    },
+    {
+        "name": "Global Valve Solution",
+        "url": "https://globalvalvesolution.com/",
+        "image": "https://picsum.photos/700/700?random=4",
+        "description": "Industrial sector"
+    },
+    {
+        "name": "Ask International",
+        "url": "https://ask-international.com",
+        "image": "https://picsum.photos/700/700?random=5",
+        "description": "Security Provider and Project Management"
+    },
+    {
+        "name": "Abstract Auditing",
+        "url": "https://abstractauditing.com/",
+        "image": "https://picsum.photos/700/700?random=6",
+        "description": "Audting and Taxation"
+    },
+    {
+        "name": "Al Amany IT Solution",
+        "url": "https://alamanyitsolution.com/",
+        "image": "https://picsum.photos/700/700?random=7",
+        "description": "IT solution"
+    },
+    {
+        "name": "Khat Alsaytra Facilities Management Services L.L.C",
+        "url": "https://khatalsaytra.com/",
+        "image": "https://picsum.photos/700/700?random=8",
+        "description": "Management Services"
+    },
+    {
+        "name": "Amanoor Textile",
+        "url": "https://amanoortextile.com/",
+        "image": "https://picsum.photos/700/700?random=10",
+        "description": "Textile"
+    },
+    {
+        "name": "Sigmasix Events Management",
+        "url": "https://www.sigmasixevents.com/",
+        "image": "https://placehold.co/700x700?text=INTERNSHIP",
+        "description": "Events Management"
+    },
+    {
+        "name": "Setup Lounge",
+        "url": "https://setuplounge.com/",
+        "image": "https://picsum.photos/700/700?random=14",
+        "description": "Your business setup expert"
+    },
+    {
+        "name": "The Bazaar Central",
+        "url": "https://thebazaarcentral.com/",
+        "image": "https://picsum.photos/700/700?random=16",
+        "description": "E-commerce"
+    },
+    {
+        "name": "Sukhvinder & Jarnail Tech",
+        "url": "https://sukhvinderandjarnailtech-s.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Tech Solution"
+    },
+    {
+        "name": "Zamir Uddin",
+        "url": "https://zamiruddin.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Personal Portfolio"
+    },
+    {
+        "name": "Errand Runners Online",
+        "url": "https://errandrunnersonline.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Shipment in UAE"
+    },
+    {
+        "name": "Kajal Mahajan IT Solution",
+        "url": "https://kajalmahajanitsol.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "IT Solution"
+    },
+    {
+        "name": "Rukn Al Badiya Events Organizing LLC",
+        "url": "https://ruknalbadiyaevents.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Events Organizing"
+    },
+    {
+        "name": "Abstact Golden Mark Business Group",
+        "url": "https://agbgroup.ae/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "UAE Taxation"
+    },
+    {
+        "name": "Abid Latif",
+        "url": "https://abidlatif.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Personal Portfolio"
+    },
+    {
+        "name": "Hussain Associates",
+        "url": "https://hussainassociates.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Real Estate Dubai"
+    },
+    {
+        "name": "Quick Repairing Services",
+        "url": "https://quickrepairingservices.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Repair"
+    },
+    {
+        "name": "An Orbit Software",
+        "url": "https://anorbitsoftware.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "IT Service Provider"
+    },
+    {
+        "name": "Perfect Business UAE",
+        "url": "https://perfectbusinessuae.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Business Setup"
+    },
+    {
+        "name": "Rgbcs UAE",
+        "url": "https://rgbcsuae.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Service Provider"
+    },
+    {
+        "name": "Merveille Tech UAE",
+        "url": "https://merveilletechuae.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Tech Service"
+    },
+    {
+        "name": "Pro Fast Repairing Service",
+        "url": "https://profastrepairingservice.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Reparing Service"
+    },
+    {
+        "name": "Elysees Textile",
+        "url": "https://elyseestextile.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Textile"
+    },
+    {
+        "name": "Triple Star Spa",
+        "url": "https://triplestarspa.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Service Provider"
+    },
+    {
+        "name": "Al Aseel UAE",
+        "url": "https://alaseeluae.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Service Provider"
+    },
+    {
+        "name": "Shehrox",
+        "url": "https://shehrox.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Personal Profile"
+    },
+    {
+        "name": "It's Nicole",
+        "url": "http://its-nicole.com/",
+        "image": "https://placehold.co/700x700?text=CEASED+DUE+TO+NON-RENEWAL/CANCELLATION",
+        "description": "Personal Profile"
+    }
+]

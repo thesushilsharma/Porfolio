@@ -11,34 +11,32 @@
     <title>The Sushil Sharma | Portfolio Gallery</title>
 
     <link rel="icon" href="Favicon/undraw_my_personal_files.svg" type="image/svg+xml" sizes="any">
+
+    <!-- Include Tailwind CSS stylesheet -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="font-nunito bg-gray-100">
     <header class="text-gray-400 bg-gray-900 body-font">
 
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0"
+                href="https://thesushilsharma.github.io">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
-                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
+                    width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path
-                        d="M5.176 5.177c-.113 .251 -.176 .53 -.176 .823v3c0 1.657 -.895 3 -2 3c1.105 0 2 1.343 2 3v3a2 2 0 0 0 2 2">
-                    </path>
-                    <path
-                        d="M17 4a2 2 0 0 1 2 2v3c0 1.657 .895 3 2 3c-1.105 0 -2 1.343 -2 3m-.176 3.821a2 2 0 0 1 -1.824 1.179">
-                    </path>
-                    <path d="M3 3l18 18"></path>
+                    <path d="M9.183 6.117a6 6 0 1 0 4.511 3.986"></path>
+                    <path d="M14.813 17.883a6 6 0 1 0 -4.496 -3.954"></path>
                 </svg>
-                <span class="ml-3 text-xl">Sushil</span>
+                <span class="ml-3 text-xl xl:block lg:hidden">The Sushil Sharma</span>
             </a>
             <nav
                 class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center hover:cursor-pointer">
-                <a class="mr-5 hover:text-white">Portfolio</a>
-                <a class="mr-5 hover:text-white">Personal Projects</a>
-                <a class="mr-5 hover:text-white">Some Link</a>
-                <a class="mr-5 hover:text-white">Some Other Link</a>
+                <a href="https://thesushilsharma.github.io/" class="mr-5 hover:text-white">Portfolio</a>
+                <a href="https://thesushilsharma.github.io/Web-Development/" class="mr-5 hover:text-white">Academic Projects</a>
+                <a href="https://linkedin.com/in/thesushilsharma" class="mr-5 hover:text-white">Linkedin</a>
+                <a href="#" class="mr-5 hover:text-white">Email</a>
             </nav>
             <button
                 class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-lg mt-4 md:mt-0">
@@ -52,526 +50,25 @@
             </button>
         </div>
     </header>
-    <main>
-        <section class="text-gray-400 bg-gray-900 body-font">
-            <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Website Gallery</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Website Developement, Progamming, and
-                        Miscellaneous stuff.</p>
-                </div>
-                <div class="flex flex-col text-center w-full mb-20">
-                    <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Select a topic of interest:
-                    </h2>
-                    <div class="lg:w-2/3 mx-auto leading-relaxed text-base gallery-filter">
-                        <h3
-                            class="text-xl text-blue-400 tracking-widest font-medium title-font mb-1 inline-flex justify-center">
-                            <button data-filter="*" class="active px-4">All</button>
-                            <button data-filter=".dynamic" class="px-4">Dynamic sites</button>
-                            <button data-filter=".static" class="px-4">Static Sites</button>
-                            <button data-filter=".discontinued" class="px-4">Discontinued</button>
-                        </h3>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -m-4 gallery">
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 dynamic gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/600/360?random=1">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Ask
-                                    Internatioanl Group</h1>
-                                <a href="https://askinternationalgroup.com" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Image and Online Presence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 dynamic gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/600/360?random=2">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Mad About
-                                    Dance, Dubai</h2>
-                                <a href="https://madaboutdancestudio.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Marketing, Registration, Information Resource, Professional
-                                    Image and Online Presence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=3">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Sunlight
-                                    Events Organizing</h1>
-                                <a href="https://sunlighteventsorg.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Digital Marketing</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=4">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Ask
-                                    International</h2>
-                                <a href="https://ask-international.com" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Normal Static</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 dynamic gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/600/360?random=5">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Global
-                                    Valve Solution</h1>
-                                <a href="https://globalvalvesolution.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">3 months Internship</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=6">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Abstract
-                                    Taxation</h1>
-                                <a href="https://abstractauditing.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Accounting and Taxation Website</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=7">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Kajal
-                                    Mahajan IT Solution</h1>
-                                <a href="https://kajalmahajanitsol.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=8">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">AL Amany
-                                    IT Solution</h1>
-                                <a href="https://kajalmahajanitsol.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Image and Online Presence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=9">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Khat
-                                    Alsaytra Facilities Management Services L.L.C </h1>
-                                <a href="https://khatalsaytra.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Image and Online Presence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=10">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Amanoor
-                                    Textile</h1>
-                                <a href="https://amanoortextile.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Image and Online Presence
-                                    {https://amanoortextiles.com/} alternative domain </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=11">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Sukhvinder
-                                    & Jarnail Technical Services</h1>
-                                <a href="https://sukhvinderandjarnailtech-s.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Image and Online Presence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 dynamic gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/600/360?random=12">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Sigma Six
-                                    Events</h1>
-                                <a href="https://www.sigmasixevents.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Only During Intership</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=13">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Zamir
-                                    Uddin</h1>
-                                <a href="https://zamiruddin.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Portfolio</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 static gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/601/361?random=14">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Setup
-                                    Lounge</h1>
-                                <a href="https://setuplounge.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">Professional Image and Online Presence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=15">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Errand
-                                    Runners Online</h2>
-                                <a href="https://errandrunnersonline.com" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=16">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">The Bazaar
-                                    Central</h2>
-                                <a href="https://thebazaarcentral.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=17">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">RUKN
-                                    AL-BADIYA EVENTS ORGANIZING L.L.C</h1>
-                                <a href="https://ruknalbadiyaevents.com" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=18">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Abstact
-                                    Golden Mark Business Group</h1>
-                                <a href="https://agbgroup.ae/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=19">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Abid Latif
-                                </h1>
-                                <a href="https://abidlatif.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=20">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Hussain
-                                    Associates</h1>
-                                <a href="https://hussainassociates.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=21">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Quick
-                                    Repairing Services</h1>
-                                <a href="https://quickrepairingservices.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=22">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">An Orbit
-                                    Software</h1>
-                                <a href="https://anorbitsoftware.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=23">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Perfect
-                                    Business UAE</h1>
-                                <a href="https://perfectbusinessuae.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=24">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Rgbcs UAE
-                                </h1>
-                                <a href="https://rgbcsuae.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=25">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Merveille
-                                    Tech UAE</h1>
-                                <a href="https://merveilletechuae.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=26">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Pro Fast
-                                    Repairing Service</h1>
-                                <a href="https://profastrepairingservice.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=27">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Elysees
-                                    Textile</h1>
-                                <a href="https://elyseestextile.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION
-                                    {https://elyseestextiles.com/} Alternative domain</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=28">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Triple
-                                    Star Spa</h1>
-                                <a href="https://triplestarspa.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=29">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Shehrox
-                                </h1>
-                                <a href="https://shehrox.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=30">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">Al Aseel
-                                    UAE</h1>
-                                <a href="https://alaseeluae.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:w-1/3 sm:w-1/2 p-4 discontinued gallery-item">
-                        <div class="flex relative">
-                            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
-                                src="https://picsum.photos/602/362?random=31">
-                            <div
-                                class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h1 class="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">It's
-                                    Nicole</h1>
-                                <a href="http://its-nicole.com/" title="More Details">
-                                    <h2 class="title-font text-lg font-medium text-white mb-3 hover:text-gray-300">Click
-                                        me</h2>
-                                </a>
-                                <p class="leading-relaxed">CEASED DUE TO NON-RENEWAL/CANCELLATION</p>
-                            </div>
-                        </div>
+
+    <main class="bg-gray-900 body-font">
+        <section class="bg-gray-900">
+            <div
+                class="text-center lg:flex-col lg:gap-5 lg:rounded-md lg:shadow-lg bg-white dark:bg-slate-900 dark:shadow-slate-800 lg:p-6">
+                <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Sushil</h1>
+                <p class="text-gray-400 mt-4">
+                    With over 4 years of experience in sotware engneering and web development.
+                </p>
+                <a class="bg-indigo-600 text-white text-lg px-4 py-2 mt-4 rounded-md font-semibold inline-block"
+                    href="#contact">Hire Me</a>
+                <h2 class="text-3xl sm:text-4xl font-medium text-white mb-4">Website Gallery</h2>
+            </div>
+        </section>
+        <section>
+            <div class="bg-white dark:text-gray-100 dark:bg-gray-900">
+                <div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+                    <div id="portfolio-gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <!-- JavaScript will populate this section -->
                     </div>
                 </div>
             </div>
@@ -597,7 +94,7 @@
             <p class="mt-4 text-sm text-gray-400 sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:pl-4">
                 © 2023 Crafted by <a href="https://github.com/thesushilsharma" class="ml-1 text-gray-500"
                     target="_blank" rel="noopener noreferrer">@thesushilsharma</a> -- Build with
-                <a href="https://isotope.metafizzy.co/" target="_blank">Isotope</a>
+                <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
             </p>
             <span class="mt-4 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
                 <a class="text-gray-400">
@@ -633,11 +130,7 @@
             </span>
         </div>
     </footer>
+    <script src="Assets/js/main.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="Assets/main.js"></script>
 
 </html>
